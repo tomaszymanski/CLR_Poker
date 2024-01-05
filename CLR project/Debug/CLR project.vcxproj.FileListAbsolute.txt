@@ -1,0 +1,3 @@
+C:\Users\tszymanski\Desktop\CLR project\CLR project\Debug\CLR project.vcxproj.AssemblyReference.cache
+C:\Users\tszymanski\Desktop\CLR project\CLR project\Debug\CLRproject.MainForm.resources
+C:\Users\tszymanski\Desktop\CLR project\CLR project\Debug\CLR project.vcxproj.GenerateResource.cache

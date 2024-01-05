@@ -1,0 +1,10 @@
+﻿  CardManager.cpp
+C:\Users\tszymanski\Desktop\CLR project\CLR project\CardManager.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tszymanski\Desktop\CLR project\CLR project\CardManager.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\tszymanski\Desktop\CLR project\CLR project\CardManager.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+C:\Users\tszymanski\Desktop\CLR project\CLR project\main.cpp(10,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MainForm.cpp
+  Generating Code...
+  CardManager.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  CLR project.vcxproj -> C:\Users\tszymanski\Desktop\CLR project\x64\Debug\CLR project.exe

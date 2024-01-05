@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Img">
+      <UniqueIdentifier>{85f14f02-7066-4367-b036-314a3f743eeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shuffle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shuffle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardValueComparer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\bg.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JOCKER.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\JOCKER1.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KARD_BACK.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KARD_BACK2.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty.jpeg">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KING_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KING_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KING_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\KING_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_CLUB.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_DIAMOND.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_HEART.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_SPADE.png">
+      <Filter>Resource Files\Img</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CLR project.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

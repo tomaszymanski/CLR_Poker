@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{63376B41-7022-4E09-ACD0-5F6719272C0F}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>CLRproject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CardManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="Shuffle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardManager.h" />
+    <ClInclude Include="CardValueComparer.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="PlayerHand.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shuffle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\bg.jpeg" />
+    <Image Include="..\..\..\Downloads\karty.jpeg" />
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_CLUB.png">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </Image>
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\ACE_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\EIGHT_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FIVE_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\FOUR_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JACK_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JOCKER.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\JOCKER1.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KARD_BACK.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KARD_BACK2.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KING_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KING_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KING_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\KING_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\NINE_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\QUEEN_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SEVEN_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\SIX_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TEN_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\THREE_SPADE.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_CLUB.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_DIAMOND.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_HEART.png" />
+    <Image Include="..\..\..\Downloads\karty\karty\TWO_SPADE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CLR project.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

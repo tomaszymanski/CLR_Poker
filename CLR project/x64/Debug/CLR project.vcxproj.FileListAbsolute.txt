@@ -1,0 +1,4 @@
+C:\Users\tszymanski\Desktop\CLR project\CLR project\x64\Debug\CLR project.vcxproj.AssemblyReference.cache
+C:\Users\tszymanski\Desktop\CLR project\CLR project\x64\Debug\CLRproject.MainForm.resources
+C:\Users\tszymanski\Desktop\CLR project\CLR project\x64\Debug\CLR project.vcxproj.GenerateResource.cache
+C:\Users\tszymanski\Desktop\CLR project\x64\Debug\ACE_CLUB.png
